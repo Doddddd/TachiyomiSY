@@ -29,7 +29,7 @@ android {
     defaultConfig {
         applicationId = "eu.kanade.tachiyomi.sy"
 
-        versionCode = 67
+        versionCode = 68
         versionName = "1.10.5"
 
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
@@ -155,7 +155,6 @@ dependencies {
     implementation(compose.activity)
     implementation(compose.foundation)
     implementation(compose.material3.core)
-    implementation(compose.material.core)
     implementation(compose.material.icons)
     implementation(compose.animation)
     implementation(compose.animation.graphics)
